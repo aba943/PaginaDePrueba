@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "MonserratBold";
+    src: url('../tipografias/Montserrat-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: "MonserratRegular";
+    src: url('../tipografias/Montserrat-Regular.ttf') format('truetype');
+}
+body{
+    color: #2d317e;
+    font-family:'MonserratBold';
+}
+.navega{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+.navega img{
+    width: 12rem;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.boxLetters{
+    width: 60%;
+    font-size: 70px;
+    padding-left: 50px;
+    position: absolute;
+    z-index: 2;
+}
+.boxImage{
+    max-width: 100%;
+}
+.boxImage img{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    left: 500px;
+    width: 1000px;
+    left: 720px;
+}
+.btnSaber{
+    display: flex;
+    justify-content: space-between;
+
+    color: white;
+    background-color: #2d317e;
+    font-family:"MonserratBold";
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+
+}
+.btnSaber img{
+    padding-left: 15px;
+}
+.rojo{
+    color: #f03055;
+}
+a {
+    text-decoration: none;
+}
