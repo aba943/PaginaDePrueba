@@ -6,6 +6,8 @@
     font-family: "MonserratRegular";
     src: url('../tipografias/Montserrat-Regular.ttf') format('truetype');
 }
+
+
 body{
     color: #2d317e;
     font-family:'MonserratBold';
@@ -65,4 +67,19 @@ body{
 }
 a {
     text-decoration: none;
+}
+.slogan{
+    background-color: #2d317e;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.blanco{
+    color:white;
+    font-size:60px;
+    text-align: center;
+    
+    
 }
